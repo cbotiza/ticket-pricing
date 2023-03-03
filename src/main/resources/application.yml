@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /transaction-pricing
+
+discounts:
+  children:
+    threshold: 3
+    percent: 25
+
+prices:
+  unit:
+    adult: 25
+    teen: 12
+    children: 5
+    seniorDiscountPercentage: 30
